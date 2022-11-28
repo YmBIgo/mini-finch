@@ -1,0 +1,18 @@
+{
+  "name": "mini-finch",
+  "version": "1.0.0",
+  "description": "min finch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "finch"
+  ],
+  "author": "kazuya kurihara",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
