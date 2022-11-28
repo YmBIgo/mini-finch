@@ -61,6 +61,7 @@ if (AllArgs[0] === "vm") {
 			break;
 		case 'init':
 			console.log("vm initing...")
+			console.log("結果が出てくるのに、数分かかります。")
 			limaCommand = joinLimactlArray(["start", "--name=mini-finch", "./finch.yaml", "--tty=false"])
 			break;
 		default:
